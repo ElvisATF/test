@@ -1,0 +1,6 @@
+---
+- name: My playbook
+  hosts: all
+  tasks:
+     - name: ping
+       command: ping
